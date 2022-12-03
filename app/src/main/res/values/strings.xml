@@ -5,7 +5,8 @@
     <string name="product_textview">Product Type</string>
 
     <string name="buy">BUY</string>
-    <string name="clear">C</string>
+    <string name="clear">Clear</string>
+    <string name="manager">Manager</string>
 
     <string name="zero">0</string>
     <string name="one">1</string>
