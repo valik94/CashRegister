@@ -8,6 +8,9 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import java.util.ArrayList;
+
+
 public class ListDataAdapter extends BaseAdapter {
 
     //list of donations to render
