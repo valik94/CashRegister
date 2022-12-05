@@ -20,4 +20,23 @@
     <string name="nine">9</string>
 
     <string name="quantity">Quantity</string>
+    <string name="history">History</string>
+    <string name="restock">Restock</string>
+
+    <string name="_3">3</string>
+    <string name="add">+</string>
+
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="advance_with_history">Advance - with history</string>
+    <string name="standard_no_history">STANDARD - NO HISTORY</string>
+    <string name="product_type">Product Type</string>
+    <string name="total">Total</string>
+
+    <string name="product">Product: </string>
+    <string name="price">Price: </string>
+    <string name="purchase_date">Purchase Date: </string>
+    <string name="enter_new_quantity">Enter New Quantity</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
 </resources>

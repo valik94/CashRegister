@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_button_text_size">20sp</dimen>
+    <dimen name="landscape_common_button_text_size">15sp</dimen>
+    <dimen name="textview_text_size">25sp</dimen>
+    <dimen name="textview_big_text_size">32sp</dimen>
+    <dimen name="common_operator_text_size">29sp</dimen>
+    <dimen name="common_button_margin">2.5dp</dimen>
+    <dimen name="manager_padding">5dp</dimen>
+    <dimen name="top_margin">30dp</dimen>
+    <dimen name="second_margin">25dp</dimen>
+
+    <dimen name="edittext_margin">15dp</dimen>
+    <dimen name="padding1">3dp</dimen>
+    <dimen name="btn_margin">40dp</dimen>
+</resources>

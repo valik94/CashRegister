@@ -8,7 +8,7 @@ public class MyApp extends Application{
     //application data
     //2 array lists: 1 product type array list, 1 history type
     public ArrayList<Product> productlist = new ArrayList<>(0);
-    public ArrayList<History> historyList = new ArrayList<History>(0);
+    public ArrayList<History> historyList = new ArrayList<>(0);
 
     //function that intializes the productList with hardcoded data
     public void setProductlistData(){

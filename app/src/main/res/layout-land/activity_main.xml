@@ -160,6 +160,13 @@
 
         </TableRow>
 
+<!--        <ListView-->
+<!--            android:id="@+id/purchase_list"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="guideline2"-->
+<!--            app:layout_constraintTop_toBottomOf="reportText"-->
+<!--            />-->
 
 
     </TableLayout>
@@ -172,7 +179,6 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:hint="@string/product_textview"
-        android:text=""
         android:textStyle="bold"
         android:textColorHint="#78909C"
         android:textSize="20sp"
@@ -196,21 +202,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/total_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/total"
+        android:hint="Total"
         android:padding="6dp"
         android:text=""
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@id/guidelineH1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guidelineH1"
-        app:layout_constraintTop_toBottomOf="@+id/product_textview"
-        />
 
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guidelineV1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonManager"
+         />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineH1"
@@ -256,14 +262,12 @@
     <TextView
         android:id="@+id/quantity_tv"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:hint="@string/quantity"
-        android:text=""
+        android:layout_height="wrap_content"
+        android:text="@string/quantity"
         android:layout_marginTop="10dp"
 
-        android:layout_marginRight="100dp"
         tools:ignore="MissingConstraints"
-        app:layout_constraintBottom_toTopOf="@+id/guidelineV1"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineV1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
         />
